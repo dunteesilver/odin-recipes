@@ -3,13 +3,27 @@
     line-height: 1.5;
 }
 
+body{
+    text-align: center;
+}
+
 h1, h2 {
     background-color: black;
     color: white;
+    margin: auto;
 }
+
+ul, ol {
+    margin-left: 0;
+    padding-left: 0;
+    width: auto;
+    margin: 0 auto;
+  }
 
 li, a{
     color: red;
+    background-color: yellow;
+    display: block;
 }
 
 a:hover{
